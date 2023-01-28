@@ -36,7 +36,6 @@ function solution(maps) {
     );
   
     visited[0][0] = 1;
-    let index = 0;
     const queue = [[0, 0]];
     const ds = [
       [0, 1],
